@@ -1,15 +1,10 @@
-README
-Python Mining
+# Python-Webscraping
+README.md
+Python Webscraping
 Created by Noah Christiano on 8/15/2014.
 noahchristiano@rochester.edu
 
-Python Mining is a collection of scripts I have written in Python for scraping data off of websites.
-
-Directory Name
-~					README				Read me
-Kimsufi
-Lowes
-Rap Genius
+Python Webscraping is a collection of scripts I have written in Python for scraping data off of websites.
 
 Rap Genius uses Selenium and Scrapy to find the top contributing artists from the Rap Genius verified artist page. This project is how I familiarized myself with Scrapy and Selenium (and Python).
 
