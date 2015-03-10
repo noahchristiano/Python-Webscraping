@@ -1,0 +1,16 @@
+README
+Kimsufi Status
+Created by Noah Christiano on 8/15/2014.
+noahchristiano@rochester.edu
+
+Kimsufi Status emails you when the Kimsufi server you want is available.
+
+File Name			Content
+README				Read me
+kimsufi_status.py	Script
+
+Kimsufi status utilizes the JSON and Requests libraries to scrape the Kimsufi website. SMTPlib is used to send the email, notifying you of the server's availbility.
+
+Selenium is used to automate the payment process. I did not fully automate the process, but in theory one could.
+
+On an OSX system, one can create a workfow app to check for avalible servers periodically in the background and eliminate the need to manually start the script on startup.

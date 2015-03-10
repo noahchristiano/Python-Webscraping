@@ -1,0 +1,11 @@
+class Listing():
+	country = ''
+	state = ''
+	town = ''
+	store_number = ''
+	address = ''
+	
+	name = ''
+	item_number = '' #removed due to selenium error processing whitespace
+	model_number = ''
+	price = 0.0

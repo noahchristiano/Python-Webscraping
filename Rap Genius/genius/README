@@ -1,0 +1,23 @@
+README
+Rap Genius
+Created by Noah Christiano on 8/15/2014.
+noahchristiano@rochester.edu
+
+Rap Genius uses Selenium and Scrapy to find the top contributing artists from the Rap Genius verified artist page.
+
+Directory Name		File Name			Content
+genius					README				Readme
+					rapgenius.py		The heart of the program, where the scraping occurs
+					scrapy.cfg			Scrapy configuration
+"/genius			__init__.py			Scrapy init
+					items.py			Items object
+					pipelines.py		Scrapy pipeline
+					settings.py			Scrapy settings
+"/spiders			__init__.py			Scrapy Spiders init
+					verifiedArtists.py	Scrapy spider
+
+This project is me being introduced to webcrawling and scraping with Scrapy and Selenium.
+
+First, Selenium initializes the browser. Then, Scrapy collects the artist information. Selenium moves to the next page and Scrapy collects the data. This repeats until all the data is collected.
+
+The script then analyzes the data and outputs the highest contributing artists. 
