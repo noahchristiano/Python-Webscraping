@@ -1,7 +1,6 @@
 # Python-Webscraping
-README.md
-Python Webscraping
 Created by Noah Christiano on 8/15/2014.
+
 noahchristiano@rochester.edu
 
 Python Webscraping is a collection of scripts I have written in Python for scraping data off of websites.
